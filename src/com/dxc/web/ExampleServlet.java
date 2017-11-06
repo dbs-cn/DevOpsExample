@@ -68,7 +68,7 @@ public class ExampleServlet extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		LOGGER.debug("Start doGet......");
-		getPerson(url, user, password, "Mary");
+		getPerson(url, user, password, "David");
 		response.getWriter().println(display());
 	}
 	
